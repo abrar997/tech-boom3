@@ -14,6 +14,7 @@ module.exports = {
       height: {
         100: "90vh",
         80: "80vh",
+        60: "60vh",
         img: "200px",
       },
 

@@ -5,7 +5,9 @@ import { motion } from "framer-motion";
 const Home = () => {
   return (
     <motion.div
-      className="px-[1rem]  w-max-100  "
+      className="px-[1rem]  w-max-100  
+      
+      "
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       variants={{ Infinity }}
@@ -29,7 +31,7 @@ const Home = () => {
           <div className="m-4 w-[60px] xl:w-[140px]  border-b-2 h-[5px]" />
         </div>
         <div className="m-auto">
-          <img src={images.homeg} className="h-100" />
+          <img src={images.homeg} className="h-80 xl:h-100" />
         </div>
         <div className="absolute bottom-3  right-10 flex justify-between items-center">
           <div>
