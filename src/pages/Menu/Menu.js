@@ -39,7 +39,7 @@ const Menu = () => {
           <motion.h1
             initial={{ x: "100%", visibility: "hidden" }}
             animate={{ x: "-155%", visibility: "visible" }}
-            transition={{ ease: "linear", duration: 7, repeat: Infinity }}
+            transition={{ ease: "linear",delay:2, duration: 7, repeat: Infinity }}
             exit={{ display: "none" }}
             className="font-serif
              uppercase tracking-wide  w-100 -mt-[90px] absolute

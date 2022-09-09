@@ -26,7 +26,7 @@ const NavbarMenu = () => {
           close
         </div>
       </Link>
-      {large ? (
+      {!large ? (
         <div className="text-lg col-span-4">
           <ul
             className=" flex  justify-between items-center  invisible
@@ -48,7 +48,7 @@ const NavbarMenu = () => {
           </ul>
         </div>
       ) : (
-        <icons.HiOutlineMenuAlt1 onClick={()=>setLarge(true)}/>
+        ""
       )}
     </motion.nav>
   );
