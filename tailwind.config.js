@@ -10,7 +10,7 @@ module.exports = {
         50: "50%",
         img: "200px",
       },
-      
+
       height: {
         100: "90vh",
         80: "80vh",

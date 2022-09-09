@@ -4,7 +4,8 @@ import { Link } from "react-router-dom";
 import { icons } from "../../constatns";
 
 const NavbarMenu = () => {
-  const [large, setLarge] = React.useState('xl');
+  const [large, setLarge] = React.useState(false);
+
   return (
     <motion.nav
       className="grid w-100 grid-rows grid-flow-col items-center
@@ -47,7 +48,7 @@ const NavbarMenu = () => {
           </ul>
         </div>
       ) : (
-        <icons.HiOutlineMenuAlt1/>
+        <icons.HiOutlineMenuAlt1 onClick={()=>setLarge(true)}/>
       )}
     </motion.nav>
   );
