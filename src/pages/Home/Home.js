@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 const Home = () => {
   return (
     <motion.div
-      className="px-[1rem]  w-max-100 "
+      className="px-[1rem]  w-max-100  h-screen"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       variants={{ Infinity }}
@@ -15,7 +15,10 @@ const Home = () => {
       <Navbar />
       <section
         className="app__home relative
-       flex justify-between items-center h-80 xl:h-100 lg:h-100 md:h-80 "
+       flex justify-between items-center 
+       
+       h-100
+       xl:h-100 lg:h-100 md:h-80 "
       >
         <div
           className="app__home-search

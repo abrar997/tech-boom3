@@ -5,7 +5,7 @@ import { AnimatePresence } from "framer-motion";
 const App = () => {
   return (
     <AnimatePresence exitBeforeEnter>
-      <div className="bg-main" >
+      <div className="bg-main  h-screen" >
         <Router>
           <Routes >
             <Route path="/">

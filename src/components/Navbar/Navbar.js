@@ -5,7 +5,9 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <motion.nav className="navbar flex  justify-between xl:justify-between sm:justify-around items-center p-[1rem] xl:p-[20px] font-bold w-max-[100%]  text-[12px] xl:text-lg ">
+    <motion.nav className="navbar flex 
+    justify-between xl:justify-between sm:justify-around items-center p-[1rem] xl:p-[20px] font-bold w-max-[100%]
+      text-[12px] xl:text-lg ">
       
       <Link to="menu">
         <div className="left flex items-center ">
