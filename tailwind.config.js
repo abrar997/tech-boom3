@@ -13,6 +13,7 @@ module.exports = {
 
       height: {
         100: "90vh",
+        80: "80vh",
       },
 
       colors: {

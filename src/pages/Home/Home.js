@@ -13,7 +13,10 @@ const Home = () => {
       exit={{ opacity: 0 }}
     >
       <Navbar />
-      <section className="app__home relative flex justify-between items-center h-100 ">
+      <section
+        className="app__home relative
+       flex justify-between items-center h-80 xl:h-100 lg:h-100 md:h-80 "
+      >
         <div
           className="app__home-search
          absolute flex
