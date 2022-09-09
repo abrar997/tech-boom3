@@ -8,12 +8,14 @@
 
 body {
   font-family: "Raleway", sans-serif;
-  overflow: hidden
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+
 }
-@layer components {
-  section {
-    @apply h-100;
+
+@media screen and (max-width:992px) {
+  body{
+    overflow: hidden;
   }
-
 }
-

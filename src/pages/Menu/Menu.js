@@ -5,7 +5,7 @@ import { images } from "../../constatns";
 
 const Menu = () => {
   return (
-    <motion.section className=" h-screen">
+    <motion.section className="pb-14 h-full">
       <NavbarMenu />
       {/* Text  */}
       <div className="grid  grid-flow-row xl:grid-flow-col items-center gap-2 navbar px-[2rem] py-[1rem] ">

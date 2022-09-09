@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 const Home = () => {
   return (
     <motion.div
-      className="px-[1rem]  w-max-100  h-screen"
+      className="px-[1rem]  w-max-100  "
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       variants={{ Infinity }}
@@ -23,7 +23,7 @@ const Home = () => {
         <div
           className="app__home-search
          absolute flex
-           items-center bottom-0 m-2 font-bold"
+           items-center bottom-0 m-1 font-bold"
         >
           Search
           <div className="m-4 w-[60px] xl:w-[140px]  border-b-2 h-[5px]" />
